@@ -1,0 +1,372 @@
+body {
+  padding: 0;
+  margin: 0;
+  border-block: border-box;
+}
+
+header {
+  background-image: url(3.photo.jpg);
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  padding: 100px;
+  line-height: 20px;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 8px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(0 0 0 0.5);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+button:hover,
+button:focus,
+button:active {
+  box-shadow: 0px 0px 6px rgba(0 0 0 0.5);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.one {
+  text-align: center;
+  padding: 60px;
+}
+
+.two {
+  background-color: rgba(0, 0, 255, 0.76);
+  padding: 35px;
+}
+
+i {
+  font-size: 25px;
+}
+
+h5 {
+  color: yellow;
+}
+.con {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c p i {
+  font-size: 10px;
+}
+
+.f {
+  text-align: center;
+}
+
+.a,
+.b,
+.c {
+  width: 150px;
+  text-align: center;
+}
+
+.two p {
+  font-size: 10px;
+}
+
+.gg {
+  background-image: url(2.photo.jpg);
+  padding: 80px;
+  background-size: cover;
+}
+
+.three {
+  text-align: center;
+}
+
+.four {
+  padding: 70px;
+  text-align: center;
+}
+
+.four h6 {
+  color: orange;
+}
+
+.i {
+  background-image: url(1.photo.jpg);
+  justify-content: start;
+  align-items: end;
+  padding: 35px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+}
+
+.ii {
+  background-image: url(4.photo.jpg);
+  padding: 35px;
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  text-align: center;
+}
+
+.iii {
+  padding: 35px;
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  text-align: center;
+  background-image: url(5.photo.jpg);
+}
+
+.iiii {
+  background-image: url(2.photo.jpg);
+  width: 300px;
+  height: 150px;
+  padding: 35px;
+  text-align: center;
+  background-size: cover;
+}
+
+.pop {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+}
+
+.mam {
+  text-align: center;
+}
+
+.four p {
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.four h3 {
+  margin-top: 70px;
+  color: white;
+}
+
+.five {
+  background-color: rgba(0, 0, 255, 0.76);
+  padding: 80px;
+  text-align: center;
+}
+
+.o {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 8px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(0 0 0 0.5);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.o:hover,
+.o:focus,
+.o:active {
+  box-shadow: 0px 0px 6px rgba(0 0 0 0.5);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.oo {
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 8px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px rgba(0 0 0 0.5);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.oo:hover,
+.oo:focus,
+.oo:active {
+  box-shadow: 0px 0px 6px rgba(0 0 0 0.5);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+footer i {
+  font-size: 20px;
+  color: blue;
+}
+
+.map iframe {
+  height: 300px;
+  width: 100%;
+  display: block;
+}
+
+.six {
+  display: block;
+}
+
+footer P {
+  font-size: 10px;
+}
+
+footer div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  .one {
+    width: 100%;
+    padding: 100px;
+  }
+  .two {
+    width: 100%;
+    padding: 100px;
+  }
+  .gg {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .four {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .five {
+    width: 100%;
+    padding: 100px;
+  }
+  .map iframe {
+    width: 100%;
+    display: block;
+    padding:190px;
+  }
+  .six {
+    display: block;
+  }
+  footer {
+    width: 100%;
+    padding: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    padding: 200px;
+  }
+
+  .one {
+    width: 100%;
+    padding: 200px;
+  }
+
+  .two {
+    width: 100%;
+    padding: 200px;
+  }
+  .con {
+    line-height: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .gg {
+    width: 100%;
+    padding: 200px;
+  }
+
+  .four {
+    width: 100%;
+    padding: 200px;
+  }
+
+  .pop {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .five {
+    width: 100%;
+    padding: 200px;
+  }
+
+  .map {
+    width: 100%;
+    display: block;
+    
+  }
+
+  footer {
+    width: 100%;
+    padding: 50px;
+    margin-left: 160px;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 1000px) {
+  
+}
+@media (max-width: 800px) {
+  
+}
+@media (max-width: 500px) {
+  
+}
